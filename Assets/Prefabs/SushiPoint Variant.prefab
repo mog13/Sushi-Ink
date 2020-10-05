@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &5940036634589464425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5053919982497372462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82fc667972124046bd76ce2ed5f8eb42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curWaypoint: {fileID: 0}
+  rootWaypoint: {fileID: 0}
+  conveyorSpeed: 0
+  curBezierPos: 0
+  sectionSpeed: -100
+--- !u!1001 &8972274679524354417
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 65456611, guid: c79d0b453d903d94b8dae3ba9457f28e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224602100208169024, guid: c79d0b453d903d94b8dae3ba9457f28e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224602100208169024, guid: c79d0b453d903d94b8dae3ba9457f28e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224602100208169024, guid: c79d0b453d903d94b8dae3ba9457f28e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224602100208169024, guid: c79d0b453d903d94b8dae3ba9457f28e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224602100208169024, guid: c79d0b453d903d94b8dae3ba9457f28e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224602100208169024, guid: c79d0b453d903d94b8dae3ba9457f28e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224602100208169024, guid: c79d0b453d903d94b8dae3ba9457f28e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224602100208169024, guid: c79d0b453d903d94b8dae3ba9457f28e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224602100208169024, guid: c79d0b453d903d94b8dae3ba9457f28e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224602100208169024, guid: c79d0b453d903d94b8dae3ba9457f28e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224602100208169024, guid: c79d0b453d903d94b8dae3ba9457f28e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224602100208169025, guid: c79d0b453d903d94b8dae3ba9457f28e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224602100208169054, guid: c79d0b453d903d94b8dae3ba9457f28e,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 10.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224602100208169055, guid: c79d0b453d903d94b8dae3ba9457f28e,
+        type: 3}
+      propertyPath: m_Name
+      value: SushiPoint Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c79d0b453d903d94b8dae3ba9457f28e, type: 3}
+--- !u!1 &5053919982497372462 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4224602100208169055, guid: c79d0b453d903d94b8dae3ba9457f28e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8972274679524354417}
+  m_PrefabAsset: {fileID: 0}
